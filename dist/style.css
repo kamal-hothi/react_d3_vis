@@ -1,3 +1,54 @@
-body {
-  margin: 0;
+bar {
+  transition: top .5s;
+}
+.bar__label, .label {
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 10px;
+  line-height: 20px;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+.bar__label {
+  text-align: right;
+  width: 50px;
+}
+
+.bar__mark {
+  background: orange;
+  display: inline-block;
+  height: 16px;
+  margin-left: 10px;
+  margin-top: 2px;
+  transition: width 1s;
+}
+
+.switch__track {
+  border-radius: 10px;
+  box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.50);
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+  width: 60px;
+  height: 20px;
+  background: #c0c0c0;
+}
+
+.switch__thumb {
+  background: #d6d6d5;
+  border-radius: 10px;
+  position: relative;
+  left: 1px;
+  top: 1px;
+  width: 18px;
+  height: 18px;
+  transition: left .5s;
+}
+
+.switch__thumb.death {
+  left: 41px;
+}
+
+.label {
+
 }
